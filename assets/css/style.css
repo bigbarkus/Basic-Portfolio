@@ -57,7 +57,7 @@ header {
     border-style: solid;
     border-width: 1px;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 960px;
     padding: 20px;
 }
@@ -109,18 +109,50 @@ footer {
 
 #noindent {
     margin: 0px;
+    margin-left: 10px;
 }
 
 input {
-    width: 100%;
+    width: 940px;
     height: 30px;
+    margin-left: 10px;
 }
+
 textarea {
-    width: 100%;
+    width: 940px;
     height: 300px;
+    margin-left: 10px;
 }
 
 #submitbutton {
     background: #4aaaa5;
     color: #ffffff;
+    text-align: center;
+    width: 70px;
 }
+
+.container {
+    position: relative;
+    float: inherit;
+  }
+  
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #4aaaa5;
+    width: 400px;
+    text-align: center;
+  }
+
+#pic {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: inherit;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
